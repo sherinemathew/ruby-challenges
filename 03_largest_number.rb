@@ -15,9 +15,24 @@
 # with your own examples and test corner cases.
 # 
 # Examples - what if both numbers are equal or are strings?
+#---------------------------------------------------------------------------
+
 
 def largest_number (number_1, number_2)
-  # Your code here
+  num = [number_1, number_2]
+  if !number_1.is_a? Numeric or !number_2.is_a? Numeric
+      puts "\nPlease enter valid data"
+  elsif number_1 == number_2
+      puts "\nThe numbers are equal"
+  else 
+      puts "\n"
+      puts "The largest number is: " + num.max().to_s
+  end
 end
 
 largest_number(100,50)
+largest_number(10,20)
+largest_number(100,100)
+largest_number(100.00, 50)
+largest_number("Hot","Cold")
+largest_number("Hot", 50)
