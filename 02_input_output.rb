@@ -21,3 +21,22 @@
 # "Wow! You are 40 years old. Congratulations!"
 # The program also outputs:
 # "Tom, in 60 years you will be 100 years old!"
+#--------------------------------------------------------------------------------------
+
+# require "io/console"
+
+#Write a program that accepts someone's name and age, 
+puts "\nWhat is you name"
+name = gets.chomp.to_s.capitalize
+
+puts "\nHi #{name}! How old are you?"
+age = gets.chomp.to_i
+
+puts "\nWow! You are #{age} years old"
+
+# Beast mode challenge:
+newAge = 100 - age
+puts "\n#{name}, in #{newAge} years you will be 100 years old!"
+
+# puts "\nPress any key to continue.."
+# STDIN.getch
