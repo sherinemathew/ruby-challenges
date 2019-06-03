@@ -11,5 +11,19 @@
 # ruby tests/09_vowels_test.rb
 
 def vowels (string)
-  # Your code here
+  #Initialising empty vowels array
+  vowels = []
+
+  letters = string.split("")
+  letters.each do |vow|
+    if vow == "a" || vow == "e" || vow == "i" || vow == "o" || vow == "u" || vow == "A" || vow == "E" || vow == "I" || vow == "O" || vow == "U"
+      vowels.push(vow)
+    end
+  end
+  return vowels
 end
+
+p vowels("\nThe quick brown fox")
+p vowels("\nThE qUIck brOwn fOx")
+p vowels("\nHello World")
+p vowels("\nTesting Vowels")
