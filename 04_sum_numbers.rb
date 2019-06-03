@@ -10,9 +10,19 @@
 # Check your solution by running the tests:
 # ruby tests/04_sum_numbers_test.rb
 
+sum = 0
+
 def sum_numbers (numbers)
-  # Your code here
+  ##inject is used to calculate a single result from multiple inputs, which is why the result comes back as it does. Used in arrays.
+  numbers.inject (0) { |sum,x| sum+x }
 end
+ 
+puts sum_numbers ([1,1,1])
+puts sum_numbers ([5,2,100,0,10])
+
+sum_numbers([1,1,1])
+sum_numbers([5,2,100,0,10])
+
 
 
 # OPTIONAL:
