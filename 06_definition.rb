@@ -15,5 +15,29 @@
 # ruby tests/06_definition_test.rb
 
 class Definition
-# Your code here
+    attr_accessor :word, :definition, :total
+    def initialize
+        @word = Array.new
+    end
+    def add_word(wordi, definition1)
+        @word << {word: wordi, definition: definition1}
+        puts word
+    end
+    
+    def lookup(word)
+        @word.each do |words|
+            return words[:definition] if (words[:word] == word)
+        end
+    end
+
+    def total_words
+        return @word.length
+    end
 end
+
+dictionary = Definition.new
+dictionary.add_word("Ruby", "A red, precious stone")
+puts
+puts dictionary.lookup("Ruby")
+puts
+puts dictionary.total_words
