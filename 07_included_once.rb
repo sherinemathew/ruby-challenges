@@ -19,5 +19,22 @@
 #
 
 def included_once (haystack, needle)
-  # Your code here
+  #Initialising count to 0
+  count = 0
+  #Checking through each element in the array
+  haystack.each do |hay|
+    if hay == needle
+      count += 1
+    end
+  end 
+  #Checking if string is found more than once in the array
+    if count > 1 || count == 0
+      return false
+    else
+      return true
+    end   
 end
+
+puts included_once(['hello','hi','hi'], 'hi')
+puts included_once(['hello','hi','hey'], 'hi')
+puts included_once(['hello','hey','hey'], 'hi')
