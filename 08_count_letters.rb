@@ -11,7 +11,17 @@
 # ruby tests/08_count_letters_test.rb
 
 def count_letters (string)
-  result = {} # You'll need an empty hash to get started!
+  words = string.split (//)
+  freq = Hash.new(0)
+  result = words.each{|item| freq[item] += 1}
+  frequencies = freq.sort_by{|item, amount| amount}
+  frequencies.reverse! 
 
-  return result # return the hash
+  freq.each do |item, amount|
+    item + " " + amount.to_s
+  end
 end
+
+puts count_letters ("hello")
+puts count_letters ("mississippi")
+#end
