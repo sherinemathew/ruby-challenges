@@ -14,8 +14,15 @@
 # "hello", ["hi","howdy","hello"] should return true.
 
 def in_array (needle, haystack)
-  # Your code here
+  for h in haystack
+    if h == needle
+      return true
+    end
+  end
+  return false
 end
+
+puts in_array("hello", ["hi", "howdy", "hello"])
 
 
 # Beast Mode:
