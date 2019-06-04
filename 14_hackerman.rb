@@ -27,6 +27,7 @@ puts "Enter some words"
 second = gets.strip
 
 def check_words(first, second)
+    #splitting the string with the space as delimiter
     first = first.downcase.split(" ")
     second = second.downcase.split(" ")
     output = []
