@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7db251037940e1eef793cf520e49867005ffaee3
 =======
@@ -45,10 +46,13 @@
 >>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
 =======
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
+=======
+>>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,10 +101,13 @@
 >>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
 =======
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
+=======
+>>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
 * 04_sum_numbers
 * 05_in_array
 * 06_definition
 * 07_included_once
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,10 +141,13 @@
 >>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
 =======
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
+=======
+>>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
 * 08_count_letters
 * 09_vowels
 * 10_unique
 * 11_fizzbuzz
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159,12 +169,19 @@
 =======
 =======
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
+=======
+>>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
 * 12_count_words
 * 13_fibonacci
 * 14_hackerman
 * 15_change_letters
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
 =======
 * 16_palindrome
 >>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
+=======
+* 16_palindrome
+* 17_combine_hashes
+>>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
