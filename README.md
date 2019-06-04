@@ -25,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7db251037940e1eef793cf520e49867005ffaee3
 =======
@@ -39,10 +40,13 @@
 >>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
 =======
 >>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
+=======
+>>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,10 +89,13 @@
 >>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
 =======
 >>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
+=======
+>>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
 * 04_sum_numbers
 * 05_in_array
 * 06_definition
 * 07_included_once
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,10 +123,13 @@
 >>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
 =======
 >>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
+=======
+>>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
 * 08_count_letters
 * 09_vowels
 * 10_unique
 * 11_fizzbuzz
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,3 +146,9 @@
 * 13_fibonacci
 * 14_hackerman
 >>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
+=======
+* 12_count_words
+* 13_fibonacci
+* 14_hackerman
+* 15_change_letters
+>>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
