@@ -20,3 +20,32 @@
 # hi 3
 # hello 1
 # 1 2
+#---------------------------------------------------------------------------------
+
+# Ask user input
+puts "\nWhat is your phrase or list of words"
+input = gets.strip
+puts
+
+# Count occurrence of each word in the string
+# Input is a string(phrase)
+# prints list of words with occurrence of each word (case insensitive)
+
+def count_words(phrase)
+    words_hash = Hash.new(0)
+    phrase.split(" ").each do |word|
+        words_hash[word.downcase] += 1
+    end
+    print_word_count(words_hash)
+    return words_hash
+end
+
+#Definition to print the number of words
+def print_word_count(words_hash)
+    words_hash.each do |key, value|
+        puts "#{key} - #{value}"
+        puts
+    end
+end
+
+count_words(input)
