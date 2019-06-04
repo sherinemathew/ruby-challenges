@@ -22,6 +22,16 @@
 # Check your solution by running the tests:
 # ruby tests/13_fibonacci_test.rb
 
-def nthFibonacci (n)
-  # Your code here
+# Definition to print the fibonacci
+def nthFibonacci(n)
+  if n < 2
+    n
+  else
+    nthFibonacci(n - 1) + nthFibonacci(n - 2)
+  end
 end
+
+#Checking different numbers
+puts nthFibonacci(0)
+puts nthFibonacci(3)
+puts nthFibonacci(6)
