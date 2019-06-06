@@ -48,5 +48,29 @@
 # Note : The middle digit(s) are 02.
 
 def balanced_num(number)
-    # Your code goes here
+    number = number.digits
+    if number.length % 2 == 0
+        first_half = number[0, number.length/2 - 1]
+    else
+        first_half = number[0, number.length/2]
+    end
+    second_half = number[number.length/2 + 1, number.length]
+
+    if first_half.sum == second_half.sum
+        puts "Balanced Number"
+    else
+        puts "Not a balanced number"
+    end
+
 end
+
+puts
+puts balanced_num(7)
+puts
+puts balanced_num(295591)
+puts
+puts balanced_num(959)
+puts
+puts balanced_num(27102983)
+puts
+puts balanced_num(1301)
