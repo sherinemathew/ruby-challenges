@@ -16,10 +16,17 @@
 #Input: 1254859723 Output: 9875543221
 
 def descending_order(n)
-    # Your code goes here
+    array = n.digits
+    puts array.sort!.reverse!.join.to_i
+   
 end
+puts
+puts "Input: 21445 ->"
+puts descending_order(21445)
+puts "Input: 145263 ->"
+puts descending_order(145263)
+puts "Input: 1254859723 ->"
+puts descending_order(1254859723)
 
-# Test your code here
-descending_order(1)
 
 # Add some interesting test cases that test edge cases
