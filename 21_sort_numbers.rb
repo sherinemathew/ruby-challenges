@@ -24,5 +24,18 @@
 # Expected output: [2,2,4,5,8]
 
 def sort(num_array)
-    # Your code goes here
+    num_array.size.times do |num|
+        i = 0
+        num_array.each do |a|
+            if a > num_array[i + 1]
+                num_array[i], num_array[i + 1] = num_array[i + 1], num_array[i]
+            end
+            if i < num_array.size - 2
+                i += 1
+            end
+        end
+    end
+    return num_array.join
 end
+
+puts sort([2,5,4,8,2])
