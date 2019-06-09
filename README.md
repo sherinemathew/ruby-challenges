@@ -20,6 +20,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # List of challenge branches
 =======
 ## List of challenge branches
@@ -30,6 +31,9 @@
 =======
 ## List of challenge branches
 >>>>>>> 4a3959cc538f83ca85bc65db68ff57b1adb64ac5
+=======
+## List of challenge branches
+>>>>>>> a87187ce63d794abb384db7a7bfb3dbc533fc579
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
@@ -51,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 19_balanced_number
 =======
 * 19_balanced_number
@@ -62,8 +67,14 @@
 * 21_sort_numbers
 >>>>>>> 8c04d27021a238ed168bba0dca4befe31c1c9749
 =======
+=======
+>>>>>>> a87187ce63d794abb384db7a7bfb3dbc533fc579
 * 19_balanced_number
 * 20_descending_numbers
 * 21_sort_numbers
 * 22_exes_ohs
+<<<<<<< HEAD
 >>>>>>> 4a3959cc538f83ca85bc65db68ff57b1adb64ac5
+=======
+* 23_first_non_repeating
+>>>>>>> a87187ce63d794abb384db7a7bfb3dbc533fc579
