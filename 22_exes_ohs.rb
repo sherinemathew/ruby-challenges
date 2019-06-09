@@ -32,6 +32,32 @@
 # Example input: "efefy"
 # Expected output: false
 
+# def exes_and_ohs(input)
+#     word = input.downcase.split("")
+#     i = 0
+#     word.each do |letter|
+#         if letter == word[i]
+#             return true
+#         else
+#             return false
+#         end
+#         i += 1
+#     end
+# end
 def exes_and_ohs(input)
-    # Your code goes here
+    if input.downcase.count("o") == input.downcase.count("x")
+        return true
+    else
+        return false
+    end
 end
+
+puts
+puts exes_and_ohs("ooxx")
+puts
+puts exes_and_ohs("oOxXxoX")
+puts
+puts exes_and_ohs("ooXx")
+puts
+puts exes_and_ohs("efefyx")
+puts
