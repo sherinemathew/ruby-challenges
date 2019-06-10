@@ -45,11 +45,12 @@
 #     end
 # end
 def exes_and_ohs(input)
-    if input.downcase.count("o") == input.downcase.count("x")
-        return true
-    else
+    letters = input.downcase.split("")
+    array = letters.uniq
+    if array.count != 2
         return false
     end
+    letters.count(array[0]) == letters.count(array[1]) ? true : false
 end
 
 puts
