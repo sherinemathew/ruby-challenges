@@ -14,10 +14,16 @@
 
 # *E.g.* isogram?("scary") should return true
 
-def isogram?(input)
-    # Your code goes here
+def isogram(input)
+    if input.downcase.chars.uniq == input.downcase.chars
+        return true
+    else
+        return false
+    end
 end
 
-# Test your code here
-puts isogram?("hello") #should return false
-puts isogram?("scary") #should return true
+puts
+puts isogram("hello")
+puts
+puts isogram("scary")
+puts
