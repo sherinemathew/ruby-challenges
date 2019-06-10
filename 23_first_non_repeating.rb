@@ -26,10 +26,18 @@
 # non-repeat, without checking every other letter?
 
 def first_non_repeating(input)
-    # Your code goes here
+    input.each_char do |letter|
+        if input.downcase.count(letter.downcase) == 1 
+            return letter            
+        end
+    end
+    return false
 end
 
-# Test your code here
+puts
 puts first_non_repeating("aaaabbbcccdeeefgh")
+puts
 puts first_non_repeating("wwwhhhggge")
+puts
 puts first_non_repeating("wwwhhhggg")
+puts
