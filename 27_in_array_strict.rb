@@ -24,6 +24,24 @@
 # Try completing this challenge without using any array 
 # helper methods, except for .each
 
-def in_array_strict? (string, arr, strict)
-    # your code goes here
+def in_array_strict(string, arr, strict)
+    if strict == true
+        arr.each do |str|
+            if str != string
+                return false
+            end        
+        end
+    elsif strict == false
+        arr.each do |str|
+            if str.downcase == string.downcase
+                return true
+            end
+        end
+    end
 end
+
+puts
+puts in_array_strict("HeLLo", ["hi", "howdy", "Hello"], true)
+puts
+puts in_array_strict("HeLLo", ["hi", "howdy", "Hello"], false)
+puts
