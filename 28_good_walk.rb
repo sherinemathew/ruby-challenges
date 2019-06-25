@@ -26,6 +26,30 @@
 # has a file name ending in _spec.rb
 
 def good_walk(walk)
-    # your code goes here
+    x = 0
+    y = 0
+    walk.each do |step|
+        if step == "S"
+            x += 1
+        elsif step == "E"
+            y += 1
+        elsif step == "W"
+            y -= 1
+        elsif step == "N"
+            x -= 1
+        else
+            return false
+        end
+        return true if x == 0 && y == 0
+    end
 end
 
+# puts
+# puts good_walk(["N", "S", "W", "E", "N", "S", "E", "W", "N", "S"])
+# puts
+# puts good_walk(["N", "S", "W", "E", "N", "S"])
+# puts
+# puts good_walk(["N", "S"])
+# puts
+puts good_walk([""])
+puts
