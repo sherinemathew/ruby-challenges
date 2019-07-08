@@ -27,6 +27,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # List of challenge branches
 =======
 ## List of challenge branches
@@ -58,6 +59,9 @@
 =======
 ## List of challenge branches
 >>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
+=======
+## List of challenge branches
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
@@ -76,6 +80,7 @@
 * 16_palindrome
 * 17_combine_hashes
 * 18_find_errors
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111,10 +116,13 @@
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
 =======
 >>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 19_balanced_number
 * 20_descending_numbers
 * 21_sort_numbers
 * 22_exes_ohs
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,11 +153,14 @@
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
 =======
 >>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 23_first_non_repeating
 * 24_isogram
 * 25_remove_adjacent_duplicates
 * 26_max_min
 * 27_in_array_strict
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
@@ -160,3 +171,8 @@
 * 28_good_walk
 * 29_shortest_walk
 >>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
+=======
+* 28_good_walk
+* 29_shortest_walk
+* 30_spin_words
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
