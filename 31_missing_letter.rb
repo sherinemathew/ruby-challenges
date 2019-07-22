@@ -16,5 +16,10 @@
 # Included test uses rspec
 
 def missing_letter(word)
-    # your code goes here
+    #upto method takes the range of letters mentioned. Here it takes the letter between the first and the last letter. 
+    all_letters = word.first.upto(word.last).to_a
+    puts missing_letter = all_letters - word
 end
+
+puts missing_letter(['a','b','c','d','f'])
+puts missing_letter(['O','Q','R','S'])
