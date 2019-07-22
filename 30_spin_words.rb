@@ -16,5 +16,22 @@
 # Tests provided use rspec
 
 def spin_words (words)
-    # your code goes here
+    i = 0
+    a = words.split(" ")
+    b = []
+
+    a.each do |word|
+        if word.length >= 5
+            rev = a[i].reverse
+            b << rev
+        else
+            b << a[i]
+        end
+        i += 1
+    end
+    puts b.join(" ")
 end
+
+puts spin_words( "Hey fellow warriors" )
+puts spin_words( "This is a test")
+puts spin_words( "This is another test" )
